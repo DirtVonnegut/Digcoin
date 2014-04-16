@@ -44,7 +44,7 @@
 
 - (IBAction)moveDigcoinUp {
     
-    if (self.digCoin.center.y < self.view.bounds.size.height) {
+    if ((self.digCoin.center.y + (self.digCoin.image.size.height/2)) < self.view.bounds.size.height) {
         CGRect frame = self.digCoin.frame;
         frame.origin.y -= 5;
     

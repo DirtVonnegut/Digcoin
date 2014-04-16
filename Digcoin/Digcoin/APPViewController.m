@@ -7,6 +7,7 @@
 //
 
 #import "APPViewController.h"
+#import "Counter.h"
 
 @interface APPViewController ()
 
@@ -17,48 +18,62 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
-    
+    self.FailLabel.hidden = true;
 }
 
 - (IBAction)moveDigcoinLeft {
     
     if (self.digCoin.center.x - (self.digCoin.image.size.width/2) > 0) {
+        self.FailLabel.hidden = true;
         CGRect frame = self.digCoin.frame;
-        frame.origin.x -= 5;
+        frame.origin.x -= 10;
         
         self.digCoin.frame = frame;
+        self.counter.text = [[NSString alloc] initWithFormat:@"%d", increment_counter()];
+    }else{
+        self.FailLabel.hidden = false;
     }
 }
 
 - (IBAction)moveDigcoinRight {
     
     if (self.digCoin.center.x + (self.digCoin.image.size.width/2) < self.view.bounds.size.width) {
+        self.FailLabel.hidden = true;
         CGRect frame = self.digCoin.frame;
-        frame.origin.x += 5;
+        frame.origin.x += 10;
     
         self.digCoin.frame = frame;
+        self.counter.text = [[NSString alloc] initWithFormat:@"%d", increment_counter()];
+    }else{
+        self.FailLabel.hidden = false;
     }
 }
 
 - (IBAction)moveDigcoinUp {
     
-    if ((self.digCoin.center.y + (self.digCoin.image.size.height/2)) < self.view.bounds.size.height) {
+    if ((self.digCoin.center.y - (self.digCoin.image.size.height/2)) > 15) {
+        self.FailLabel.hidden = true;
         CGRect frame = self.digCoin.frame;
-        frame.origin.y -= 5;
+        frame.origin.y -= 10;
     
         self.digCoin.frame = frame;
+        self.counter.text = [[NSString alloc] initWithFormat:@"%d", increment_counter()];
+    }else{
+        self.FailLabel.hidden = false;
     }
 }
 
 - (IBAction)moveDigcoinDown {
     
-    if (self.digCoin.center.y > 0) {
+    if ((self.digCoin.center.y + (self.digCoin.image.size.height/2)) < (self.view.bounds.size.height - self.view.bounds.size.height/4 * 2)) {
+        self.FailLabel.hidden = true;
         CGRect frame = self.digCoin.frame;
-        frame.origin.y += 5;
+        frame.origin.y += 10;
     
         self.digCoin.frame = frame;
+        self.counter.text = [[NSString alloc] initWithFormat:@"%d", increment_counter()];
+    }else{
+        self.FailLabel.hidden = false;
     }
 }
 

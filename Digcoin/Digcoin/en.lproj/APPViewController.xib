@@ -7,6 +7,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="APPViewController">
             <connections>
+                <outlet property="FailLabel" destination="IB5-q8-9Y4" id="QxE-T6-7VK"/>
+                <outlet property="counter" destination="fel-ME-KXs" id="xSN-4d-trM"/>
                 <outlet property="digCoin" destination="8" id="155"/>
                 <outlet property="view" destination="6" id="154"/>
             </connections>
@@ -58,6 +60,22 @@
                         <action selector="moveDigcoinRight" destination="-1" eventType="touchUpInside" id="UzW-sS-3we"/>
                     </connections>
                 </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fel-ME-KXs">
+                    <rect key="frame" x="20" y="28" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" none="YES"/>
+                    </accessibility>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IB5-q8-9Y4">
+                    <rect key="frame" x="20" y="527" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>

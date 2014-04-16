@@ -17,6 +17,8 @@
 
 @property (assign, nonatomic) CGPoint currentPoint;
 
+@property (strong, nonatomic) IBOutlet UILabel *counter;
+@property (strong, nonatomic) IBOutlet UILabel *FailLabel;
 -(IBAction)moveDigcoinLeft;
 -(IBAction)moveDigcoinRight;
 -(IBAction)moveDigcoinDown;

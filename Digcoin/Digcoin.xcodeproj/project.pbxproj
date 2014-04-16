@@ -22,6 +22,7 @@
 		BF4386B7187CB566009BBD57 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4386B1187CB566009BBD57 /* square.png */; };
 		BF4386B9187CB57F009BBD57 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4386B8187CB57F009BBD57 /* CoreMotion.framework */; };
 		BF4386BB187CB594009BBD57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4386BA187CB594009BBD57 /* QuartzCore.framework */; };
+		BF54ABC918FF0B0A00B0AD51 /* Counter.c in Sources */ = {isa = PBXBuildFile; fileRef = BF54ABC818FF0B0A00B0AD51 /* Counter.c */; };
 		BFB766CF18FECE4200C40A40 /* ArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB766CB18FECE4200C40A40 /* ArrowDown.png */; };
 		BFB766D018FECE4200C40A40 /* ArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB766CC18FECE4200C40A40 /* ArrowLeft.png */; };
 		BFB766D118FECE4200C40A40 /* ArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = BFB766CD18FECE4200C40A40 /* ArrowRight.png */; };
@@ -49,6 +50,8 @@
 		BF4386B1187CB566009BBD57 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = IOSgame/square.png; sourceTree = "<group>"; };
 		BF4386B8187CB57F009BBD57 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		BF4386BA187CB594009BBD57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF54ABC818FF0B0A00B0AD51 /* Counter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Counter.c; sourceTree = "<group>"; };
+		BF66C73018FF0E2C00FCF800 /* Counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Counter.h; sourceTree = "<group>"; };
 		BFB766CB18FECE4200C40A40 /* ArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowDown.png; path = "Digcoin-images/ArrowDown.png"; sourceTree = SOURCE_ROOT; };
 		BFB766CC18FECE4200C40A40 /* ArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowLeft.png; path = "Digcoin-images/ArrowLeft.png"; sourceTree = SOURCE_ROOT; };
 		BFB766CD18FECE4200C40A40 /* ArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowRight.png; path = "Digcoin-images/ArrowRight.png"; sourceTree = SOURCE_ROOT; };
@@ -115,6 +118,8 @@
 				BF4386A2187CAFFF009BBD57 /* APPViewController.m */,
 				BF4386A4187CAFFF009BBD57 /* APPViewController.xib */,
 				BF438690187CAFFF009BBD57 /* Supporting Files */,
+				BF54ABC818FF0B0A00B0AD51 /* Counter.c */,
+				BF66C73018FF0E2C00FCF800 /* Counter.h */,
 			);
 			path = Digcoin;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 			files = (
 				BF438696187CAFFF009BBD57 /* main.m in Sources */,
 				BF43869A187CAFFF009BBD57 /* APPAppDelegate.m in Sources */,
+				BF54ABC918FF0B0A00B0AD51 /* Counter.c in Sources */,
 				BF4386A3187CAFFF009BBD57 /* APPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

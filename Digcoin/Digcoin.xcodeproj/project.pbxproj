@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF43868A187CAFFF009BBD57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF438689187CAFFF009BBD57 /* UIKit.framework */; };
+		BF43868C187CAFFF009BBD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF43868B187CAFFF009BBD57 /* Foundation.framework */; };
+		BF43868E187CAFFF009BBD57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF43868D187CAFFF009BBD57 /* CoreGraphics.framework */; };
+		BF438694187CAFFF009BBD57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF438692187CAFFF009BBD57 /* InfoPlist.strings */; };
+		BF438696187CAFFF009BBD57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF438695187CAFFF009BBD57 /* main.m */; };
+		BF43869A187CAFFF009BBD57 /* APPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF438699187CAFFF009BBD57 /* APPAppDelegate.m */; };
+		BF43869C187CAFFF009BBD57 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43869B187CAFFF009BBD57 /* Default.png */; };
+		BF43869E187CAFFF009BBD57 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43869D187CAFFF009BBD57 /* Default@2x.png */; };
+		BF4386A0187CAFFF009BBD57 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43869F187CAFFF009BBD57 /* Default-568h@2x.png */; };
+		BF4386A3187CAFFF009BBD57 /* APPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4386A2187CAFFF009BBD57 /* APPViewController.m */; };
+		BF4386A6187CAFFF009BBD57 /* APPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4386A4187CAFFF009BBD57 /* APPViewController.xib */; };
+		BF4386B3187CB566009BBD57 /* ArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4386AD187CB566009BBD57 /* ArrowLeft.png */; };
+		BF4386B4187CB566009BBD57 /* ArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4386AE187CB566009BBD57 /* ArrowRight.png */; };
+		BF4386B5187CB566009BBD57 /* ArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4386AF187CB566009BBD57 /* ArrowUp.png */; };
+		BF4386B6187CB566009BBD57 /* Digger.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4386B0187CB566009BBD57 /* Digger.png */; };
+		BF4386B7187CB566009BBD57 /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4386B1187CB566009BBD57 /* square.png */; };
+		BF4386B9187CB57F009BBD57 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4386B8187CB57F009BBD57 /* CoreMotion.framework */; };
+		BF4386BB187CB594009BBD57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4386BA187CB594009BBD57 /* QuartzCore.framework */; };
+		BF4386BF187CB6E9009BBD57 /* ArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4386BE187CB6E9009BBD57 /* ArrowDown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF438686187CAFFF009BBD57 /* Digcoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Digcoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF438689187CAFFF009BBD57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF43868B187CAFFF009BBD57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF43868D187CAFFF009BBD57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF438691187CAFFF009BBD57 /* Digcoin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Digcoin-Info.plist"; sourceTree = "<group>"; };
+		BF438693187CAFFF009BBD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF438695187CAFFF009BBD57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF438697187CAFFF009BBD57 /* Digcoin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Digcoin-Prefix.pch"; sourceTree = "<group>"; };
+		BF438698187CAFFF009BBD57 /* APPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPAppDelegate.h; sourceTree = "<group>"; };
+		BF438699187CAFFF009BBD57 /* APPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPAppDelegate.m; sourceTree = "<group>"; };
+		BF43869B187CAFFF009BBD57 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF43869D187CAFFF009BBD57 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF43869F187CAFFF009BBD57 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF4386A1187CAFFF009BBD57 /* APPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPViewController.h; sourceTree = "<group>"; };
+		BF4386A2187CAFFF009BBD57 /* APPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPViewController.m; sourceTree = "<group>"; };
+		BF4386A5187CAFFF009BBD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/APPViewController.xib; sourceTree = "<group>"; };
+		BF4386AD187CB566009BBD57 /* ArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowLeft.png; path = IOSgame/ArrowLeft.png; sourceTree = "<group>"; };
+		BF4386AE187CB566009BBD57 /* ArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowRight.png; path = IOSgame/ArrowRight.png; sourceTree = "<group>"; };
+		BF4386AF187CB566009BBD57 /* ArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowUp.png; path = IOSgame/ArrowUp.png; sourceTree = "<group>"; };
+		BF4386B0187CB566009BBD57 /* Digger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Digger.png; path = IOSgame/Digger.png; sourceTree = "<group>"; };
+		BF4386B1187CB566009BBD57 /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = square.png; path = IOSgame/square.png; sourceTree = "<group>"; };
+		BF4386B8187CB57F009BBD57 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		BF4386BA187CB594009BBD57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF4386BE187CB6E9009BBD57 /* ArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ArrowDown.png; path = IOSgame/ArrowDown.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF438683187CAFFF009BBD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4386BB187CB594009BBD57 /* QuartzCore.framework in Frameworks */,
+				BF4386B9187CB57F009BBD57 /* CoreMotion.framework in Frameworks */,
+				BF43868A187CAFFF009BBD57 /* UIKit.framework in Frameworks */,
+				BF43868C187CAFFF009BBD57 /* Foundation.framework in Frameworks */,
+				BF43868E187CAFFF009BBD57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF43867D187CAFFF009BBD57 = {
+			isa = PBXGroup;
+			children = (
+				BF4386BA187CB594009BBD57 /* QuartzCore.framework */,
+				BF4386B8187CB57F009BBD57 /* CoreMotion.framework */,
+				BF43868F187CAFFF009BBD57 /* Digcoin */,
+				BF438688187CAFFF009BBD57 /* Frameworks */,
+				BF438687187CAFFF009BBD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF438687187CAFFF009BBD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF438686187CAFFF009BBD57 /* Digcoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF438688187CAFFF009BBD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF438689187CAFFF009BBD57 /* UIKit.framework */,
+				BF43868B187CAFFF009BBD57 /* Foundation.framework */,
+				BF43868D187CAFFF009BBD57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF43868F187CAFFF009BBD57 /* Digcoin */ = {
+			isa = PBXGroup;
+			children = (
+				BF4386BE187CB6E9009BBD57 /* ArrowDown.png */,
+				BF4386AD187CB566009BBD57 /* ArrowLeft.png */,
+				BF4386AE187CB566009BBD57 /* ArrowRight.png */,
+				BF4386AF187CB566009BBD57 /* ArrowUp.png */,
+				BF4386B0187CB566009BBD57 /* Digger.png */,
+				BF4386B1187CB566009BBD57 /* square.png */,
+				BF438698187CAFFF009BBD57 /* APPAppDelegate.h */,
+				BF438699187CAFFF009BBD57 /* APPAppDelegate.m */,
+				BF4386A1187CAFFF009BBD57 /* APPViewController.h */,
+				BF4386A2187CAFFF009BBD57 /* APPViewController.m */,
+				BF4386A4187CAFFF009BBD57 /* APPViewController.xib */,
+				BF438690187CAFFF009BBD57 /* Supporting Files */,
+			);
+			path = Digcoin;
+			sourceTree = "<group>";
+		};
+		BF438690187CAFFF009BBD57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF438691187CAFFF009BBD57 /* Digcoin-Info.plist */,
+				BF438692187CAFFF009BBD57 /* InfoPlist.strings */,
+				BF438695187CAFFF009BBD57 /* main.m */,
+				BF438697187CAFFF009BBD57 /* Digcoin-Prefix.pch */,
+				BF43869B187CAFFF009BBD57 /* Default.png */,
+				BF43869D187CAFFF009BBD57 /* Default@2x.png */,
+				BF43869F187CAFFF009BBD57 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF438685187CAFFF009BBD57 /* Digcoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4386A9187CAFFF009BBD57 /* Build configuration list for PBXNativeTarget "Digcoin" */;
+			buildPhases = (
+				BF438682187CAFFF009BBD57 /* Sources */,
+				BF438683187CAFFF009BBD57 /* Frameworks */,
+				BF438684187CAFFF009BBD57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Digcoin;
+			productName = Digcoin;
+			productReference = BF438686187CAFFF009BBD57 /* Digcoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF43867E187CAFFF009BBD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Graham Sullivan";
+			};
+			buildConfigurationList = BF438681187CAFFF009BBD57 /* Build configuration list for PBXProject "Digcoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF43867D187CAFFF009BBD57;
+			productRefGroup = BF438687187CAFFF009BBD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF438685187CAFFF009BBD57 /* Digcoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF438684187CAFFF009BBD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF438694187CAFFF009BBD57 /* InfoPlist.strings in Resources */,
+				BF43869C187CAFFF009BBD57 /* Default.png in Resources */,
+				BF43869E187CAFFF009BBD57 /* Default@2x.png in Resources */,
+				BF4386A0187CAFFF009BBD57 /* Default-568h@2x.png in Resources */,
+				BF4386A6187CAFFF009BBD57 /* APPViewController.xib in Resources */,
+				BF4386B3187CB566009BBD57 /* ArrowLeft.png in Resources */,
+				BF4386B4187CB566009BBD57 /* ArrowRight.png in Resources */,
+				BF4386B5187CB566009BBD57 /* ArrowUp.png in Resources */,
+				BF4386B6187CB566009BBD57 /* Digger.png in Resources */,
+				BF4386B7187CB566009BBD57 /* square.png in Resources */,
+				BF4386BF187CB6E9009BBD57 /* ArrowDown.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF438682187CAFFF009BBD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF438696187CAFFF009BBD57 /* main.m in Sources */,
+				BF43869A187CAFFF009BBD57 /* APPAppDelegate.m in Sources */,
+				BF4386A3187CAFFF009BBD57 /* APPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF438692187CAFFF009BBD57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF438693187CAFFF009BBD57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF4386A4187CAFFF009BBD57 /* APPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4386A5187CAFFF009BBD57 /* en */,
+			);
+			name = APPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF4386A7187CAFFF009BBD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF4386A8187CAFFF009BBD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF4386AA187CAFFF009BBD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Digcoin/Digcoin-Prefix.pch";
+				INFOPLIST_FILE = "Digcoin/Digcoin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF4386AB187CAFFF009BBD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Digcoin/Digcoin-Prefix.pch";
+				INFOPLIST_FILE = "Digcoin/Digcoin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF438681187CAFFF009BBD57 /* Build configuration list for PBXProject "Digcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4386A7187CAFFF009BBD57 /* Debug */,
+				BF4386A8187CAFFF009BBD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF4386A9187CAFFF009BBD57 /* Build configuration list for PBXNativeTarget "Digcoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4386AA187CAFFF009BBD57 /* Debug */,
+				BF4386AB187CAFFF009BBD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF43867E187CAFFF009BBD57 /* Project object */;
+}
